@@ -129,15 +129,17 @@ A second-stage predictive model could estimate expected return of a proposed fil
 ---
 
 ## Repository Structure
-```
-Boxoffice_Analysis/
+
+```text
+Movie_Industry_Investment_Strategy/
 ├── data/
-│   ├── final_cleaned_movie_data.csv          # Cleaned merged dataset
-│   ├── final_cleaned_movie_data_exploded.csv # Genre-exploded version
-│   └── tn.movie_budgets.csv                  # Source budget data
-├── Project_notebook.ipynb                    # Full analysis notebook
-├── requirements.txt                          # Python dependencies
-├── LICENSE                                   # MIT License
+│   ├── final_cleaned_movie_data.csv           # Cleaned merged dataset
+│   ├── final_cleaned_movie_data_exploded.csv  # Genre-exploded version
+│   └── tn.movie_budgets.csv                   # Source budget data
+├── Project_notebook.ipynb                     # Full analysis notebook
+├── Movie_Analysis_Executive.pdf               # Executive summary PDF
+├── requirements.txt                           # Python dependencies
+├── LICENSE                                    # MIT License
 ├── .gitignore
 └── README.md
 ```
@@ -161,4 +163,26 @@ Boxoffice_Analysis/
 - SQLite  
 
 ---
+## Limitations
 
+* Matching between financial data and IMDb was performed on movie titles, which can introduce mismatches due to duplicate titles, spelling variations, or different versions of films.
+* Gross ROI calculation excludes marketing (P&A), distribution fees, theater revenue shares, and streaming backend revenue.
+* Results should be interpreted as directional evidence rather than definitive accounting for every film.
+
+## Next Steps
+
+A second-stage predictive model could estimate expected return of a proposed film by incorporating:
+
+* Marketing budgets
+* Franchise / sequel status
+* Director & cast historical performance
+* Studio track record
+* Competitive release landscape
+* Inflation-adjusted revenue
+
+## License
+
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+
+**Author:** Eugin Wangila  
+[GitHub](https://github.com/ewangila)
