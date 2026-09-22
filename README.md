@@ -17,7 +17,7 @@ This analysis evaluates historical production budgets, worldwide box-office reve
 
 ## Business Problem
 
-Studios often chase high-grossing blockbusters. However, the highest-grossing movie is not necessarily the most efficient investment.  
+Most studios often chase high-grossing blockbusters. However, the highest-grossing movie is not necessarily the most efficient investment.  
 
 We evaluate success using two distinct metrics:
 
@@ -117,10 +117,10 @@ Correlation between production budget and IMDb rating is near zero.
 
 ## Next Steps
 
-A second-stage predictive model could estimate expected return of a proposed film by incorporating:
+A second-stage predictive model could estimate the expected return of a proposed film by incorporating:
 
 - Marketing budgets  
-- Franchise / sequel status  
+- Franchise/sequel status  
 - Director & cast historical performance  
 - Studio track record  
 - Competitive release landscape  
@@ -174,7 +174,7 @@ Movie_Industry_Investment_Strategy/
 A second-stage predictive model could estimate expected return of a proposed film by incorporating:
 
 * Marketing budgets
-* Franchise / sequel status
+* Franchise/sequel status
 * Director & cast historical performance
 * Studio track record
 * Competitive release landscape
